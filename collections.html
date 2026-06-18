@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ecommerce</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            header {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: #eeeff9;
+                padding: 10px 20px;
+            }
+            .logo img {
+                height: 40px;
+            }
+            nav a {
+                margin: 15px;
+                text-decoration: none;
+                color: #000000;
+                font-weight: 600;
+                font-family: system-ui;
+                transition: all 0.3s ease;
+            }
+            .nav-text {
+                justify-content: center;
+            }
+            nav a:hover {
+                font-weight: bold;
+                color: #6b7280;
+                background-color: #eeeff1;
+                border-radius: 50%;
+            }
+            .shop-now a {
+                text-decoration: none;
+                color: black;
+                font-family: system-ui;
+                border: 1px solid rgb(177, 168, 168);
+                padding: 5px 10px;
+                border-radius: 50px;
+                font-weight: 480;
+                padding: 5px 15px;
+                background-color: white;
+                font-weight: 600;
+                display: inline-flex;
+                align-items: center;
+                padding: 8px 8px 8px 18px;
+                transition: all 0.3s ease;
+            }
+            .shop-arrow {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 34px;
+                height: 34px;
+                background: #dfff3f;
+                border-radius: 50%;
+                font-size: 18px;
+                font-weight: 700;
+            }
+            .shop-now a:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+            }
+            footer{
+                background: #ffffff;
+                border-top: 1px solid #e5e7eb;
+                margin-top: 80px;
+                font-family: system-ui;
+            }
+            .logo-content img{
+                width: 150px;
+            }
+            .footer-content{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 20px 40px;
+                margin-top: 20px;
+                margin-bottom: 10px;
+                margin-left: 20px;
+            }
+            .footer-text{
+                font-size: 14px;
+                color: #6b7280;
+                line-height: 1.5;
+                margin-top: 20px;
+                margin-right: 200px;
+            }
+            .footer-title{
+                font-weight: bold;
+                margin-bottom: 10px;
+                font-size: 16px;
+            }
+            .footer-text-content{
+                font-size: 14px;
+                color: #6b7280;
+                line-height: 1.5;
+                margin-top: 5px;
+                display: block;
+                text-decoration: none;
+            }
+            .footer-text-content a{
+                text-decoration: none;
+                transition: all 0.3s ease;
+            }
+            .footer-text-content:hover{
+                color: #000000;
+                font-weight: bold;
+            }
+            .copyright{
+                font-size: 14px;
+                color: #6b7280;
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>  
+      <header>
+        <div class="logo">
+            <a href="index.html"><img src="images/Logo.png" alt="Logo"></a>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="products.html">Products</a>
+            <a href="contact.html" class="nav-text">Contact</a>
+        </nav>
+        <div class="shop-now">
+            <a href="products.html"><small>Shop Now</small>
+                <span style="margin-left: 5px;" class="shop-arrow">↗</span>
+            </a>
+        </div>
+    </header> 
+    <footer>
+        <div class="footer-content">
+            <div class="logo-content">
+                <img src="images/Logo.png" alt="footer-logo">
+                    <p class="footer-text">
+                        Discover premium products crafted for <br> modern lifestyles.
+                         We bring quality, innovation, and <br> style to every purchase.
+                    </p>
+            </div>
+            <div class="footer-text">
+                <p class="footer-title">Shop</p>
+                <a href="products.html" class="footer-text-content">All Products</a>
+                <a href="new-arrivals.html" class="footer-text-content">New Arrivals</a>
+                <a href="best-sellers.html" class="footer-text-content">Best Sellers</a>
+                <a href="collections.html" class="footer-text-content">Collections</a>
+            </div>
+            <div class="footer-text">
+                <p class="footer-title">Company</p>
+                <a href="about.html" class="footer-text-content">About Us</a>
+                <a href="contact.html" class="footer-text-content">Contact</a>
+                <a href="privacy-policy.html" class="footer-text-content">Privacy Policy</a>
+                <a href="terms-conditions.html" class="footer-text-content">Terms & Conditions</a>
+            </div>
+            <div class="footer-text">
+                <p class="footer-title">Support</p>
+                <a href="help-center.html" class="footer-text-content">Help Center</a>
+                <a href="shipping-info.html" class="footer-text-content">Shipping Info</a>
+                <a href="returns.html" class="footer-text-content">Returns</a>
+                <a href="faq.html" class="footer-text-content">FAQ</a>
+            </div>
+        </div>
+        <footer>
+            <p class="copyright" style="text-align: center; margin-top: 20px;">&copy; 2026 Avenox. All rights reserved.</p>
+        </footer>
+    </footer>
+     
+
+    
