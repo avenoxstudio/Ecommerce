@@ -8,6 +8,7 @@
             * {
                 margin: 0;
                 padding: 0;
+                font-family: system-ui;
             }
             header {
                 display: flex;
@@ -31,7 +32,6 @@
                 justify-content: center;
             }
             nav a:hover {
-                font-weight: bold;
                 color: #6b7280;
                 background-color: #eeeff1;
                 border-radius: 50%;
@@ -118,6 +118,350 @@
                 color: #6b7280;
                 margin-top: 20px;
             }
+            .main-content{
+                display:flex;
+                justify-content:space-between;
+                align-items:center;
+                gap:80px;
+                padding:80px 8%;
+                background:#f5f6fb;
+                max-width: 12000px;
+                font-family: system-ui;
+                flex-wrap: wrap;
+
+            }
+            .main-content img{
+                width:550px;
+                border-radius:30px;
+                transition:.4s;
+                height: 100%;
+                border-radius: 20%;
+                background: #f5f6fb;
+            }
+            .main-content h1{
+                font-size: 70px;
+                font-weight: 700;
+                color: #000000;
+                margin-bottom: 0px;
+            }
+            .main-content p{
+                font-size: 18px;
+                color: #6b7280;
+                margin-top: 0px;
+            }
+            .right-main-hero{
+                flex:1;
+                display:flex;
+            }
+            .left-main-hero{
+                flex:1;
+                display:flex;
+                flex-direction:column;
+                justify-content:center;
+            }
+            .hero-buttons{
+                display:flex;
+                gap:20px;
+                margin-top:10px;
+            }
+            .explore-now{
+                text-decoration:none;
+                color:#ffffff;
+                font-family:system-ui;
+                border-radius:50px;
+                font-weight:480;
+                background-color:rgb(38, 35, 41);
+                transition: all 0.3s ease;
+                padding: 10px 20px;
+            }
+            .learn-more{
+                text-decoration:none;
+                font-family:system-ui;
+                border-radius:50px;
+                font-weight:480;
+                transition: all 0.3s ease;
+                padding: 10px 20px;
+                border: rgb(177, 168, 168) 1px solid;
+                color: black;
+                background-color: white;
+            }
+            .learn-more:hover{
+                transform: translateY(-2px);
+                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+            }
+            .explore-now:hover{
+                transform: translateY(-2px);
+                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+            }
+            .stats{
+                display:flex;
+                justify-content:space-between;
+                align-items:center;
+                gap:80px;
+                padding:80px 8%;
+                background:#111827;
+                max-width: 12000px;
+                font-family: system-ui;
+                color: #ffffff;
+                justify-content:space-around;
+            }
+            .stats-text{
+                font-size: 18px;
+                color: #ffffff;
+                text-align: center;
+                font-weight: 500;
+            }
+            .category{
+                margin-top: 80px;
+                text-align:center;
+                font-family: system-ui;
+            }
+            .category-box{
+                display:inline-block;
+                margin-top:40px;
+                border:1px solid #eee;
+                border-radius:20px;
+                padding:20px;
+                transition:.3s;
+                background:white;
+                margin-right: 60px;
+            }
+            .category-box:hover{
+                transform:translateY(-6px);
+                box-shadow:0 15px 30px rgba(0,0,0,.1);
+            }
+            .category-box img{
+                width:100px;
+                height:100px;
+                object-fit:cover;
+            }
+            .category h1{
+                font-size: 50px;
+                font-weight: 700;
+                color: #000000;
+            }
+            .category p{
+                font-size: 18px;
+                color: #6b7280;
+                margin-top: 10px;
+            }
+            .featured-products{
+                text-align: center;
+                font-family: system-ui;
+                margin-top: 80px;
+            }
+            .featured-products h1{
+                font-size: 50px;
+                font-weight: 700;
+            }
+            .feature-box{
+                display:inline-block;
+                margin-top:40px;
+                border:1px solid #eee;
+                border-radius:20px;
+                padding:20px;
+                transition:.3s;
+                background:white;
+                width:300px;
+            }
+            .feature-box:hover{
+                transform:translateY(-6px);
+                box-shadow:0 15px 30px rgba(0,0,0,.1);
+            }
+            .feature-box img{
+                width: 300px;
+                height:300px;
+                object-fit:cover;
+                border-radius: 20px;
+            }
+            .feature-btn{
+                text-decoration:none;
+                color:#ffffff;
+                font-family:system-ui;
+                border-radius:50px;
+                font-weight:480;
+                background-color:rgb(38, 35, 41);
+                transition: all 0.3s ease;
+                padding: 10px 20px;
+                display:inline-block;
+                margin-top:10px;
+            }
+            .feature-btn:hover{
+                transform: translateY(-2px);
+                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+            }
+            .feature-box p{
+                font-size: 18px;
+                color: #6b7280;
+                margin-top: 10px;
+                text-align: left;
+                display: inline;
+            }
+            .choose h1{
+                font-size: 50px;
+                font-weight: 700;
+                font-family: system-ui;
+                text-align: center;
+                margin-top: 80px;
+            }
+            .choose-box{
+                display:inline-block;
+                margin-top:40px;
+                border:1px solid #eee;
+                border-radius:20px;
+                padding:20px;
+                transition:.3s;
+                background:white;
+                width:190px;
+                font-size: 15px;
+                font-family: system-ui;
+                text-align: center;
+                gap: 10px;
+                margin-right: 40px;
+
+            }
+            .choose-box:hover{
+                transform:translateY(-6px);
+            }
+            .choose-box b{
+                font-size: 20px;
+                color: #000000;
+            }
+            .choose-box p{
+                color: #6b7280;
+                margin-left: 10px;
+            }
+            .Faq h1{
+                font-size: 50px;
+                font-weight: 700;
+                font-family: system-ui;
+                text-align: center;
+                margin-top: 80px;
+            }
+            .faq-container{
+                max-width:1200px;
+                margin:auto;
+            }
+
+
+            .faq-item{
+                background:#ffffff;
+                border:4px solid #000;
+                border-radius:35px;
+                padding:35px 40px;
+                transition:0.3s ease;
+            }
+            
+            .faq-item:hover{
+                box-shadow:0 10px 25px rgba(0,0,0,0.08);
+            }
+            
+            
+            summary{
+                list-style:none;
+                display:flex;
+                align-items:center;
+                cursor:pointer;
+            }
+            
+            summary::-webkit-details-marker{
+                display:none;
+            }
+            
+            
+            .faq-icon{
+                width:75px;
+                height:75px;
+                border:2px solid #e5e5e5;
+                border-radius:20px;
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                font-size:34px;
+                color:#f4c400;
+                margin-right:25px;
+                flex-shrink:0;
+            }
+            
+            
+            .faq-title{
+                flex:1;
+                font-size:28px;
+                font-weight:900;
+                text-transform:uppercase;
+                color:#000;
+            }
+            
+            
+            .arrow{
+                font-size:40px;
+                color:#b5b5b5;
+                transition:0.3s ease;
+            }
+            
+            
+            details[open] .arrow{
+                transform:rotate(180deg);
+            }
+            
+            
+            .faq-content{
+                margin-left:100px;
+                margin-top:30px;
+            }
+            
+            
+            .faq-line{
+                width:60px;
+                height:4px;
+                background:#efe4a5;
+                margin-bottom:25px;
+            }
+            
+            
+            .faq-content p{
+                font-size:22px;
+                font-weight:600;
+                color:#666;
+                line-height:1.7;
+            }
+            .contact-form{
+                background:#f5f6fb;
+                padding:60px 8%;
+                margin-top:80px;
+            }
+            .contact-form-content{
+                max-width:600px;
+                margin:auto;
+                text-align:center;
+            }
+            .contact-form-content h2{
+                font-size:36px;
+                margin-bottom:30px;
+            }
+            .contact-form-content input,
+            .contact-form-content textarea{
+                width:100%;
+                padding:15px;
+                margin-bottom:20px;
+                border:1px solid #ddd;
+                border-radius:10px;
+                font-size:16px;
+            }
+            .contact-form-content button{
+                padding:15px 30px;
+                border:none;
+                background:#111827;
+                color:white;
+                border-radius:999px;
+                font-size:16px;
+                cursor:pointer;
+                transition: all 0.3s ease;
+            }
+            .contact-form-content button:hover{
+                transform: translateY(-2px);
+                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+            }
         </style>
     </head>
     <body>  
@@ -137,13 +481,215 @@
             </a>
         </div>
     </header> 
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="left-main-hero">
+            <h1>
+                Discover <br>Premimum <br>Products For<br> Modern Living
+            </h1>
+            <br>
+            <p>
+                Explore beautifully crafted products designed to elevate your lifestyle with quality,
+                innovation, and timeless style.
+            </p>
+            <br>
+            <div class="hero-buttons">
+                <a href="products.html" class="explore-now"> Explore products </a>
+                <a href="faq.html" class="learn-more"> Learn More </a>
+            </div>
+        </div>
+        <div class="right-main-hero">
+            <img src="images/main.png" alt="main-image">
+        </div>
+    </div>
+    <div class="stats">
+        <div style="text-align: center;">
+            <h1>10K+ <br><span class="stats-text">Happy Customers</span></h1>
+        </div>
+        <div style="text-align: center;">
+            <h1>500+ <br><span class="stats-text">Products</span></h1>
+        </div>
+        <div style="text-align: center;">
+            <h1>99% <br><span class="stats-text">Customer Satisfaction</span></h1>
+        </div>
+    </div>
+    <div class="category">
+        <h1>Shop By Category</h1>
+        <p>Browse our popular collections.</p>
+        <div class="category-box">
+            <img src="images/electricity.png" alt="electronics">
+            <p>Electronics</p>
+        </div>
+        <div class="category-box">
+            <img src="images/fashion.png" alt="fashion">
+            <p>Fashion</p>
+        </div>
+                <div class="category-box">
+            <img src="images/lifestyle.png" alt="lifestyle">
+            <p>Lifestyle</p>
+        </div>
+        <div class="category-box">
+            <img src="images/accessories.png" alt="accessories">
+            <p>Accessories</p>
+        </div>
+    </div>
+    <div class="featured-products">
+        <h1 style="text-align: center;">Featured Products</h1>
+        <div class="feature-box">
+            <img src="images/headphones.jpg" alt="headphones">
+            <p style="text-align: center; margin-top: 10px;">Premium Headphones Immersive sound experience.<br><b> Price : $89</b></p>
+            <br>
+            <a href="products.html" class="feature-btn">Explore More!</a>
+        </div>
+        <div class="feature-box">
+            <img src="images/smartwatch.webp" alt="smartwatch">
+            <p style="text-align: center; margin-top: 10px;">Premium Smartwatch Advanced features for your lifestyle.<br><b> Price : $199</b></p>
+            <br>
+            <a href="products.html" class="feature-btn">Explore More!</a>
+        </div>
+        <div class="feature-box">
+            <img src="images/laptop.jpg" alt="laptop">
+            <p style="text-align: center; margin-top: 10px;">Premium Laptop High-performance computing for your needs.<br><b> Price : $999</b></p>
+            <br>
+            <a href="products.html" class="feature-btn">Explore More!</a>
+        </div>
+    </div>
+    <div class="choose" >
+        <h1>Why Choose Avenox</h1>
+        <div class="choose-box" style="margin-left: 220px;">
+            <p><b>Fast Shipping</b><br><br> Quick and reliable <br>delivery worldwide.</p>
+        </div>
+                <div class="choose-box">
+            <p><b>Secure Payments</b><br><br>Protected transactions <br>and checkout.</p>
+        </div>
+                <div class="choose-box">
+            <p><b>Premium Quality</b><br><br> Curated products with<br> excellent quality.</p>
+        </div>
+                <div class="choose-box">
+            <p><b>24/7 Support</b><br><br> Friendly support <br>whenever needed.</p>
+        </div>  
+    </div>
+    <div class="Faq">
+        <h1>Frequently Asked Questions</h1>
+        <br>
+        <br>
+        <div class="Faq-box">
+            <details class="faq-item">
+                <summary>
+                    <div class="faq-icon">
+                        ?
+                    </div>
+                    <div class="faq-title">
+                        What is Avenox?
+                    </div>
+                    <div class="arrow">
+                        ⌃
+                    </div>
+                </summary>
+                <div class="faq-content">
+                    <div class="faq-line"></div>
+                    <p> Avenox is a premium ecommerce platform that offers a curated selection of high-quality products designed to elevate your lifestyle. We focus on providing exceptional customer service, fast shipping, and secure payments to ensure a seamless shopping experience.</p>
+                </div>
+            </details>
+        </div>
+        <br>
+        <div class="Faq-box">
+            <details class="faq-item">
+                <summary>
+                    <div class="faq-icon">
+                        ?
+                    </div>
+                    <div class="faq-title">
+                        Return Policy?
+                    </div>
+                    <div class="arrow">
+                        ⌃
+                    </div>
+                </summary>
+                <div class="faq-content">
+                    <div class="faq-line"></div>
+                    <p> Avenox offers a hassle-free return policy. If you're not satisfied with your purchase, you can return it within 30 days for a full refund or exchange.</p>
+                </div>
+            </details>
+        </div>
+        <br>
+         <div class="Faq-box">
+            <details class="faq-item">
+                <summary>
+                    <div class="faq-icon">
+                        ?
+                    </div>
+                    <div class="faq-title">
+                        Do you offer support?
+                    </div>
+                    <div class="arrow">
+                        ⌃
+                    </div>
+                </summary>
+                <div class="faq-content">
+                    <div class="faq-line"></div>
+                    <p>Yes, we offer 24/7 support for all customers. Our friendly support team is available to assist you with any questions or concerns you may have.</p>
+                </div>
+            </details>
+        </div>
+        <br>
+         <div class="Faq-box">
+            <details class="faq-item">
+                <summary>
+                    <div class="faq-icon">
+                        ?
+                    </div>
+                    <div class="faq-title">
+                        Shipping Time?
+                    </div>
+                    <div class="arrow">
+                        ⌃
+                    </div>
+                </summary>
+                <div class="faq-content">
+                    <div class="faq-line"></div>
+                    <p>Most orders arrive within 3–7 business days, depending on your location. We also offer expedited shipping options for faster delivery.</p>
+                </div>
+            </details>
+        </div>
+        <br>
+         <div class="Faq-box">
+            <details class="faq-item">
+                <summary>
+                    <div class="faq-icon">
+                        ?
+                    </div>
+                    <div class="faq-title">
+                        Payment Methods?
+                    </div>
+                    <div class="arrow">
+                        ⌃
+                    </div>
+                </summary>
+                <div class="faq-content">
+                    <div class="faq-line"></div>
+                    <p>We accept various payment methods, including credit/debit cards, PayPal, and other secure payment options to ensure a convenient checkout experience.</p>
+                </div>
+            </details>
+        </div>
+        <div class="contact-form">
+            <div class="contact-form-content">
+                <h2>Contact Us</h2>
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
     <footer>
         <div class="footer-content">
             <div class="logo-content">
                 <img src="images/Logo.png" alt="footer-logo">
                     <p class="footer-text">
                         Discover premium products crafted for <br> modern lifestyles.
-                         We bring quality, innovation, and <br> style to every purchase.
+                        We bring quality, innovation, and <br> style to every purchase.
                     </p>
             </div>
             <div class="footer-text">
